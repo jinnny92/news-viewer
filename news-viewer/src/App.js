@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route index element={<NewsPage />} />
-      <Route path="/:category?" element={<NewsPage />} />
+      <Route path="/:category" element={<NewsPage />} />
     </Routes>
   );
 }
